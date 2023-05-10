@@ -9,11 +9,7 @@ contract BalancerInteract {
     IERC20 public dai;
     IWeth public weth;
 
-    constructor(
-        address _balancerPool,
-        address _dai,
-        address _weth
-    ) {
+    constructor(address _balancerPool, address _dai, address _weth) {
         balancerPool = IBalancerPool(_balancerPool);
         dai = IERC20(_dai);
         weth = IWeth(_weth);
