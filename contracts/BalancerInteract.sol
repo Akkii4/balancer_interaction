@@ -1,8 +1,8 @@
 pragma solidity ^0.7.3;
 
 import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
-import "./IBalancerPool.sol";
-import "./IWeth.sol";
+import "./interface/IBalancerPool.sol";
+import "./interface/IWeth.sol";
 
 contract BalancerInteract {
     IBalancerPool public balancerPool;
